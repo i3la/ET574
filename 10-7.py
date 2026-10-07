@@ -29,3 +29,9 @@ print(evens[0], evens[-1])
 # n = evens.index(74)
 # print(evens[:5], evens[-5:], evens[m:n+1], sep = '\n')
 print(evens[:5], evens[-5:], evens[evens.index(44):evens.index(88)+1], sep = '\n')
+
+
+#3
+n_one = [x*4 for x in range(11)]
+print(n_one)
+n_two = []
